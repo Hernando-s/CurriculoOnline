@@ -139,7 +139,7 @@ h1 {
 }
 
 /* Responsividade */
-@media (max-width: 350px) {
+@media (max-width: 500px) {
     .container {
         display: flex;
         justify-content: space-between;
