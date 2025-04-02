@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-    background: white;
+    background-image:url('https://media-exp1.licdn.com/dms/image/C4D12AQGZt9HdOId8uw/article-cover_image-shrink_720_1280/0/1645298173006?e=2147483647&v=beta&t=oAQ1NFqS_DqYKrTbXFERq8A5jjLTtRyr1z1UN9zOz6s');
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ h1 {
 }
 
 .contact-info a:hover {
-    color: #000;
+    color:  #0036aa;
 }
 
 .contact-info a {
@@ -84,7 +84,7 @@ h1 {
     max-width: 45%;
     min-height: 241px;
     text-align: center;
-    background: #004d66;
+    background-image: url('https://media-exp1.licdn.com/dms/image/C4D12AQGZt9HdOId8uw/article-cover_image-shrink_720_1280/0/1645298173006?e=2147483647&v=beta&t=oAQ1NFqS_DqYKrTbXFERq8A5jjLTtRyr1z1UN9zOz6s');
     color: white;
     padding: 20px;
     border-radius: 10px 0px 0px 10px;
