@@ -138,8 +138,74 @@ h1 {
     border-radius: 0px 10px 10px 0px;
 }
 
+/* Responsividade para Tablets */
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 400px;
+        padding: 15px;
+        font-size: 7px;
+    }
+
+    .header img {
+        margin-top: 30px;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 3px solid #004d66;
+    }
+
+    .contact {
+        
+        max-width: 200px;
+        margin-top: 120px;
+    }
+    .contact p {
+       position: absolute;
+       font-size: 14px;
+    }
+
+
+    .contact-info {
+        width: 100%;
+        max-width: 45%;
+        min-height: 241px;
+        text-align: center;
+        background-image: url('https://media-exp1.licdn.com/dms/image/C4D12AQGZt9HdOId8uw/article-cover_image-shrink_720_1280/0/1645298173006?e=2147483647&v=beta&t=oAQ1NFqS_DqYKrTbXFERq8A5jjLTtRyr1z1UN9zOz6s');
+        color: white;
+        padding: 20px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .header h1 {
+     position:absolute;
+     margin-left: -12px;
+        flex-wrap:0px;
+        font-size: 8px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+   
+
+    .section h2 {
+        font-size: 8px;
+        color: white;
+        background: #004d66;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 5px;
+    }
+}
+
+
 /* Responsividade */
-@media (max-width: 330px) {
+@media (max-width: 480px) {
     .container {
         display: flex;
         justify-content: space-between;
